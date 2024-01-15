@@ -233,6 +233,11 @@ section p {
 }
 
 @media (max-width: 576px) {
+  body {
+    background: url("/images/bg-header-mobile.png") no-repeat;
+    background-size: contain;
+  }
+
   .main-header,
   section {
     width: 80% !important;
